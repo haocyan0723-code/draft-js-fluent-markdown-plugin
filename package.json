@@ -4,7 +4,11 @@
   "author": "Chengdu Mufan Technology Co., Ltd.",
   "license": "MIT",
   "description": "Draft.js Fluent Markdown Plugin",
-  "repository": "https://github.com/makeflow/draft-js-fluent-markdown-plugin.git",
+  "repository": "https://github.com/mufancom/draft-js-fluent-markdown-plugin.git",
+  "homepage": "https://github.com/mufancom/draft-js-fluent-markdown-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/mufancom/draft-js-fluent-markdown-plugin/issues"
+  },
   "scripts": {
     "build-pages": "rimraf gh-pages/* && parcel build demo/index.html --out-dir gh-pages --public-url /draft-js-fluent-markdown-plugin && yarn publish-pages",
     "publish-pages": "./scripts/publish-pages.sh",
